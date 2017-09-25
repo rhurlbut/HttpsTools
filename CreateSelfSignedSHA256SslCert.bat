@@ -1,0 +1,1 @@
+makecert -r -pe -n "CN=%1" -b 01/01/2015 -e 01/01/2020 -eku 1.3.6.1.5.5.7.3.1 -sky exchange -a sha256 -len 2048 -ss my -sr localMachine -sp "Microsoft Enhanced RSA and AES Cryptographic Provider" -sy 24
